@@ -1,0 +1,19 @@
+/* program to adult or not */
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+ int age;
+ clrscr();
+ printf("enter your age");
+ scanf("%d",&age);
+ if(age>=18);
+ {
+ printf("you are elegible to vote");
+ }else();
+ printf("you are not elegible to vote");
+ getch();
+ }
+
+
+

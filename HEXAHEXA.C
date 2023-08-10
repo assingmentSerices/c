@@ -1,0 +1,32 @@
+#include<stdio.h>
+#include<conio.h>
+int b=1,j=0;
+void main()
+{
+char a[100];
+int i,l;
+clrscr();
+printf("enter a no");
+scanf("%s",&a);
+l=strlen(a);
+for(i=l;i!=0;i--)
+{
+if(a[i-1]>='0'&&a[i-1]<='9')
+{
+j+=(a[i-1]-48)*b;
+b*=16;
+}
+else if(a[i-1]>='a'&&a[i-1]<='f')
+{
+j+=(a[i-1]-87)*b;
+b*=16;
+}
+else if(a[i-1]>='A'&&a[i-1]<='F')
+{
+j+=(a[i-1]-55)*b;
+b*=16;
+}
+}
+printf("%d",j);
+getch();
+}

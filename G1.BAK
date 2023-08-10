@@ -1,0 +1,14 @@
+#include<iostream.h>
+#include<conio.h>
+#include<graphics.h>
+void main()
+{
+  int gd=DETECT,gm;
+  initgraph(&gd,&gm," ");
+  cout<"fdgffF";
+  setcolor("RED");
+  circle(200,300,80);
+  getch();
+  closegraph();
+
+}

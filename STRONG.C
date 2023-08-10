@@ -1,0 +1,33 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,b,i,j,n,sum=0,t,fact=1;
+clrscr();
+printf("enter a no");
+scanf("%d",&n);
+t=n;
+while(n!=0)
+{
+j=n%10;
+n=n/10;
+{
+for(a=1;a<=j;a++)
+{
+fact=fact*a;
+}
+//printf("%d",fact);
+
+sum=sum+fact;
+fact=1;
+     }
+}
+if(sum==t)
+{
+printf("%d the strong no.",sum);
+}
+else
+{
+printf(" not strong");
+}
+}

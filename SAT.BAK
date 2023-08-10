@@ -1,0 +1,29 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,j,n;
+clrscr();
+printf("enter no");
+scanf("%d",&n);
+for(i=1;i<=n;i++)
+{
+if(i+j<=n)
+{
+printf(" ");
+}
+for(j=1;j>=1;j--)
+{
+if(i+j>=n)
+{
+printf(" ");
+}
+else
+{
+for(i=1;i<=n;i++)
+printf("%d",i*11);
+}
+}
+printf("\n");
+
+}}

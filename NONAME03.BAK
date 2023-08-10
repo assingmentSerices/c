@@ -1,0 +1,9 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+clrcsr();
+int a=5, b=3;
+printf("%d%d%d");
+getch();
+}

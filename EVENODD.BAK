@@ -1,0 +1,29 @@
+#include<conio.h>
+#include<string.h>
+void main()
+{
+int i,j;
+char a[100];
+clrscr();
+printf("enter a number string\n");
+gets(a);
+j=strlen(a);
+//printf("%d",j);
+printf("\n even no = ");
+for(i=0;a[i];i++)
+{
+if(a[i]%2==0)
+{
+printf("%c",a[i]);
+}
+}
+printf("\n odd no = ");
+for(i=0;a[i];i++)
+{
+if(a[i]%2==1)
+{
+printf("%c",a[i]);
+}
+}
+getch();
+}
